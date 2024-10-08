@@ -1,7 +1,7 @@
 @extends('partial.layout')
 
 
-{{-- @section('content') --}}
+@section('content')
 
     <div class="container mt-5 mb-5">
         <h5 style="color: #333; font-size: 30px; font-weight:800; ">TAMBAH DATA</h5>

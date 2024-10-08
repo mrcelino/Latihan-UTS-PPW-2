@@ -1,7 +1,7 @@
 @extends('partial.layout')
 
 @section('content')
-    @include('partial.searchbarrrrr')
+    @include('partial.searchbar')
 
     <div class="container mt-5">
         <div class="row">
@@ -35,7 +35,7 @@
                                         <td class="text-center">
                                             <form onsubmit="return confirm('Apakah Anda Yakin ?');"
                                                 action="{{ route('posts.destroy', $post->id) }}" method="POST">
-                                                <a href="{{ route('posts.showww', $post->id) }}"
+                                                <a href="{{ route('posts.show', $post->id) }}"
                                                     class="btn btn-sm btn-dark">SHOW</a>
                                                 <a href="{{ route('posts.edit', $post->id) }}"
                                                     class="btn btn-sm btn-primary">EDIT</a>

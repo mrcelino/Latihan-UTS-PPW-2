@@ -16,9 +16,9 @@
                     <div class="card-body">
                         <img src="{{ asset('storage/posts/'.$post->image) }}" class="w-100 rounded">
                         <hr>
-                        <h4>{{ $post->titlee }}</h4>
+                        <h4>{{ $post->title}}</h4>
                         <p class="tmt-3">
-                            {!! $possts->content !!}
+                            {!! $post->content !!}
                         </p>
                     </div>
                 </div>
